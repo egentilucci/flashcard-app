@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "question": "What is the KISS principle in software development?",
+    "answer": "The KISS (Keep It Simple, Stupid) principle emphasizes simplicity in code to make it easier to maintain, test, and debug."
+  },
+  {
+    "id": 1,
+    "question": "What does the DRY principle stand for?",
+    "answer": "The DRY (Don't Repeat Yourself) principle is about reducing repetition and avoiding duplicate code by using abstractions or functions for common tasks."
+  },
+  {
+    "id": 2,
+    "question": "What is the YAGNI principle?",
+    "answer": "YAGNI (You Aren't Gonna Need It) is a principle from extreme programming that emphasizes not adding functionality until necessary to avoid over-engineering."
+  },
+  {
+    "id": 3,
+    "question": "What are the SOLID principles in software development?",
+    "answer": "SOLID principles are five design principles aimed at making software designs more understandable, flexible, and maintainable. They include Single Responsibility Principle, Open/Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, and Dependency Inversion Principle."
+  },
+  {
+    "id": 4,
+    "question": "What is the role of Agile methodologies in software development?",
+    "answer": "Agile methodologies, like Scrum and Kanban, are not principles per se but are important for understanding iterative development, collaboration, and flexibility."
+  },
+  {
+    "id": 5,
+    "question": "What is code refactoring?",
+    "answer": "Code refactoring involves regularly improving the internal structure of code without changing its external behavior, essential for maintaining code quality over time."
+  },
+  {
+    "id": 6,
+    "question": "What does CI/CD stand for?",
+    "answer": "CI/CD stands for Continuous Integration/Continuous Deployment, involving regularly merging code changes into a central repository and running automated builds and tests."
+  },
+  {
+    "id": 7,
+    "question": "What is Test-Driven Development (TDD)?",
+    "answer": "Test-Driven Development (TDD) is a process where tests are written for functions before the actual code, ensuring the application works as expected."
+  },
+  {
+    "id": 8,
+    "question": "Why is version control important in software development?",
+    "answer": "Version control, using tools like Git, is crucial for managing changes to source code over time, essential for collaboration and maintaining a history of changes."
+  },
+  {
+    "id": 9,
+    "question": "What are scalability and performance considerations in software development?",
+    "answer": "Scalability and performance considerations involve designing software that can scale and perform well under increased loads or growth."
+  },
+  {
+    "id": 10,
+    "question": "Why is security important in software development?",
+    "answer": "Security is crucial in software development to ensure that the application is secure and protects data and privacy."
+  },
+  {
+    "id": 11,
+    "question": "What is the importance of documentation and readability in software development?",
+    "answer": "Documentation and readability, involving writing clear, understandable code with adequate documentation, are essential for collaboration and maintenance."
+  }
+]
