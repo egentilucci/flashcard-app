@@ -1,9 +1,8 @@
 <template>
+  <div align="center">Remaining Cards: {{ remainingCards.length }}</div>
+
   <q-card v-if="remainingCards.length !== 0">
-    <q-card-section align="center">
-      Card #{{ card.id }}
-      {{ remainingCards }}
-    </q-card-section>
+    <q-card-section align="center"> Card #{{ card.id }} </q-card-section>
 
     <q-separator inset />
 
@@ -26,7 +25,8 @@
       <q-btn flat @click="nextCard">NEXT</q-btn>
     </q-card-actions>
   </q-card>
-  <q-card v-else> NO MORE CARDS </q-card>
+
+  <div v-else>NO MORE CARDS</div>
 </template>
 
 <script setup lang="ts">
