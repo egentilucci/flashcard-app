@@ -61,6 +61,7 @@ const card = computed(() => {
 const toggleAnswer = () => (showAnswer.value = !showAnswer.value);
 
 const nextCard = () => {
+  showAnswer.value = false;
   if (remainingCards.value.length !== 0) {
     remainingCards.value.splice(currentCardIndex.value, 1);
   }
