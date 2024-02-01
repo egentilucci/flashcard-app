@@ -11,9 +11,9 @@
 import { ref, computed } from 'vue';
 import QuestionsDeck from '../components/QuestionsDeck.vue';
 import principles from '../assets/data/software_development_principles.json';
-import test from '../assets/data/software_development_test.json';
+import typescript from '../assets/data/typescript.json';
 
-const decks = { principles, test };
+const decks = { principles, typescript };
 const tabs = Object.keys(decks);
 
 const deck = computed(() => {

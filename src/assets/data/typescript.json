@@ -1,0 +1,52 @@
+[
+  {
+    "id": 0,
+    "question": "What is TypeScript and how does it differ from JavaScript?",
+    "answer": "TypeScript is a superset of JavaScript that adds static typing to the language. It helps catch errors early in the development process and provides better tooling support, making it easier to manage large codebases compared to plain JavaScript."
+  },
+  {
+    "id": 1,
+    "question": "How do you declare a variable with a specific type in TypeScript?",
+    "answer": "In TypeScript, you declare a variable with a specific type using the syntax: `let variableName: type = value;` For example, `let age: number = 30;` declares a variable `age` with the type `number`."
+  },
+  {
+    "id": 2,
+    "question": "What are TypeScript interfaces and how are they used?",
+    "answer": "TypeScript interfaces are used to define the shape of an object or function. They describe the expected properties, methods, and their types, providing a contract that objects can implement or follow. Interfaces are mainly used for type checking and ensuring consistency in the structure of objects."
+  },
+  {
+    "id": 3,
+    "question": "Explain how generics are used in TypeScript.",
+    "answer": "Generics in TypeScript are used to create reusable components that can work over a variety of types rather than a single one. This allows users to provide their own types when using the component, ensuring type safety without losing flexibility. Generics are defined using angle brackets `<>` and can apply to functions, interfaces, and classes."
+  },
+  {
+    "id": 4,
+    "question": "What is the purpose of the `any` type in TypeScript?",
+    "answer": "The `any` type in TypeScript is used for variables that can hold any type of value. It provides a way to opt-out of type checking for a variable, offering flexibility when interacting with parts of the code that are not type-safe or when migrating JavaScript code to TypeScript."
+  },
+  {
+    "id": 5,
+    "question": "How does TypeScript support object-oriented programming concepts?",
+    "answer": "TypeScript supports object-oriented programming concepts such as classes, inheritance, and interfaces. It allows developers to define classes with properties and methods, extend classes using inheritance, and use interfaces to enforce certain structures for classes and objects, facilitating a more structured and modular approach to building applications."
+  },
+  {
+    "id": 6,
+    "question": "What are Union Types in TypeScript and how do you use them?",
+    "answer": "Union Types in TypeScript allow variables to hold values of multiple types, offering more flexibility in variable assignment. They are declared using the pipe `|` symbol between the types. For example, `let value: string | number;` lets the `value` variable hold either a string or a number."
+  },
+  {
+    "id": 7,
+    "question": "Describe the process of compiling TypeScript into JavaScript.",
+    "answer": "Compiling TypeScript into JavaScript involves using the TypeScript compiler (tsc) to transform TypeScript code (.ts files) into JavaScript code (.js files). This process checks the code for type errors and transpiles it to JavaScript, which can then be run in any JavaScript engine or browser. The compiler can be configured via the `tsconfig.json` file to specify the target JavaScript version and other options."
+  },
+  {
+    "id": 8,
+    "question": "How do you handle null and undefined values in TypeScript?",
+    "answer": "In TypeScript, null and undefined values can be handled using union types and strict null checks. By enabling strict null checks in the compiler options, variables must be explicitly checked for null or undefined before they are used. Union types can also be used to declare that a variable may be null or undefined, e.g., `let variable: Type | null | undefined;`."
+  },
+  {
+    "id": 9,
+    "question": "What are Decorators in TypeScript, and what is their use?",
+    "answer": "Decorators in TypeScript are a special kind of declaration that can be attached to a class declaration, method, accessor, property, or parameter. Decorators use the form `@expression`, where `expression` must evaluate to a function that will be called at runtime with information about the decorated declaration. They are used to modify or annotate class properties and methods, and enable meta-programming features like reflection."
+  }
+]
